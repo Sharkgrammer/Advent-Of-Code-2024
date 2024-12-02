@@ -7,7 +7,7 @@ def add_to_dict(val, obj):
     obj[val] = obj[val] + 1 if val in obj else 1
 
 
-with open('input') as file:
+with open('input.txt') as file:
     while True:
         line = file.readline()
 

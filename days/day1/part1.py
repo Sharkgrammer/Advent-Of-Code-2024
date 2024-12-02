@@ -2,7 +2,7 @@ list1 = []
 list2 = []
 result = 0
 
-with open('input') as file:
+with open('input.txt') as file:
     while True:
         line = file.readline()
 
